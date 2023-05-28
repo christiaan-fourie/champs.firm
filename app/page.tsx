@@ -3,7 +3,7 @@ export default function Home() {
     <>     
       <div className='w-full min-h-[60vh]'>
         <main className='text-xl text-center mx-24'>
-          <h1 className='text-6xl pt-32'>
+          <h1 className='text-6xl font-light pt-32'>
             Welcome to <a href='#'>Champs Firm</a>
           </h1>
           <div className='w-1/6 h-[1px] bg-[#84be1f] my-4 mx-auto'></div>
