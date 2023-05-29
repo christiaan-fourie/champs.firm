@@ -10,7 +10,7 @@ function services() {
           </h1>
           <div className='w-1/6 h-[1px] bg-[#84be1f] my-4 mx-auto'></div>
           <p className="max-w- mx-auto">
-            We&apos;re here to build creative brands, and companies that meets world class client/customer satisfaction. 
+            We are here to build creative brands, and companies that meets world class client/customer satisfaction. 
           </p>
           <div className="flex flex-col lg:flex-row  justify-around p-12">
             <div className="hover:text-[#84be1f] border hover:border-[#84bd1f] rounded-lg p-12 w-full lg:w-1/3 lg:hover:w-1/2 transition-all duration-700">
