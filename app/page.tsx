@@ -1,7 +1,9 @@
+
 export default function Home() {
   return (
-    <>     
-      <div className='w-full min-h-[60vh]'>
+    <>          
+      <div className='w-full min-h-[60vh] '>
+        <div className='absolute top-0 left-0 w-full h-full bg-black bg-opacity-80 -z-10'></div>
         <main className='text-xl text-center mx-24'>
           <h1 className='text-6xl font-light pt-32'>
             Welcome to <a href='#'>Champs Firm</a>
