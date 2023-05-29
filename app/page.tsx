@@ -6,7 +6,7 @@ export default function Home() {
         <div className='absolute top-0 left-0 w-full h-full bg-black bg-opacity-80 -z-10'></div>
         <main className='text-xl text-center mx-24'>
           <h1 className='text-6xl font-light pt-32'>
-            Welcome to <a href='#'>Champs Firm</a>
+            Welcome to Champs Firm
           </h1>
           <div className='w-1/6 h-[1px] bg-[#84be1f] my-4 mx-auto'></div>
           <p>
