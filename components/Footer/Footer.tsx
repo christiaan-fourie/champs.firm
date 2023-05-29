@@ -1,4 +1,4 @@
-import { FaGithub, FaLocationArrow, FaRegEnvelope, FaFacebook, FaHome, FaPenNib } from 'react-icons/fa';
+import { FaGithub, FaLocationArrow, FaRegEnvelope, FaFacebook, FaHome, FaPenNib, FaTwitter, FaInstagram } from 'react-icons/fa';
 import Image from 'next/image';
 
 const littleLine = () => {
@@ -14,12 +14,12 @@ export default function header() {
                 <div className='p-12'> 
                     <h1 className='text-start font-thin text-4xl'>Champs Firm</h1>
                     {littleLine()}
-                    <p className='text-start max-w-xl'>Champs firm is a consultancy company whose aim, and dream is to serve SMMEs at all positions in the African domain.</p>
-                    <div className='flex justify-left gap-4 pt-8'>
-                        <FaGithub size={30}  />
-                        <FaFacebook size={30}  />
-                        <FaGithub size={30}  />
-                        <FaFacebook size={30} />
+                    <p className='text-start max-w-md'>Champs firm is a consultancy company whose aim, and dream is to serve SMMEs at all positions in the African domain.</p>
+                    <div className='flex justify-left gap-8 pt-8'>
+                        <FaFacebook size={35} className='hover:bg-[#84be1f] hover:text-black rounded-full p-1 transition-all duration-500' />
+                        <FaTwitter size={35} className='hover:bg-[#84be1f] hover:text-black rounded-full p-1 transition-all duration-500' />
+                        <FaInstagram size={35} className='hover:bg-[#84be1f] hover:text-black rounded-full p-1 transition-all duration-500'  />
+                        <FaGithub size={35} className='hover:bg-[#84be1f] hover:text-black rounded-full p-1 transition-all duration-500'  />
                     </div>
                 </div>  
                 <div className='p-12'>
