@@ -1,5 +1,5 @@
-import { FaGithub, FaLocationArrow, FaRegEnvelope, FaFacebook, FaHome, FaPenNib, FaTwitter, FaInstagram } from 'react-icons/fa';
-import Image from 'next/image';
+import { FaGithub, FaLocationArrow, FaRegEnvelope, FaFacebook, FaHome, FaPenNib, FaTwitter, FaInstagram, FaPhone } from 'react-icons/fa';
+import Link from 'next/link';
 
 const littleLine = () => {
     return (
@@ -54,14 +54,26 @@ export default function header() {
                         <FaRegEnvelope size={20} className='m-6 ml-0' />
                         <div>
                             <h2 className='font-bold text-md'>Email</h2>
-                            <p>keith@champsfirm.africa</p>
+                            <p>hello@champsfirm.africa</p>
+                        </div>
+                    </div>
+                    <div className='flex items-center'>
+                        <FaPhone size={20} className='m-6 ml-0' />
+                        <div>
+                            <h2 className='font-bold text-md'>Phone</h2>
+                            <p>+27 21 879 3035</p>
                         </div>
                     </div>
                 </div>           
             </section>
             <section
                 className="w-full border-t">
-                <p className="flex justify-between p-2 items-center"><span className="text-center"> © Copyright 2023 Champs Firm | Dev with Psytech </span><FaGithub size={30} /> </p>
+                <p className="flex justify-between p-2 pl-6 items-center">
+                    <span className="text-sm font-thin"> © Copyright 2023 Champs Firm | Dev with Psytech </span>
+                    <Link target='_blank' href='https://github.com/iam-krist/champs.firm'>
+                        <FaGithub size={30} className='p-1' title='Source Code'  />
+                    </Link>                    
+                </p>
             </section>
         </footer>
     )
