@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* Utilities */
+@layer utilities {
+  .glass {
+    background: rgba(var(--background-start-rgb), 0.1);
+    backdrop-filter: blur(6px);
+  }
+}
