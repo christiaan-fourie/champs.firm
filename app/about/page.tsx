@@ -14,7 +14,7 @@ export default function About() {
             <div className="hover:text-[#84be1f] border hover:border-[#84bd1f] rounded-lg p-12 w-full lg:w-1/3 lg:hover:w-1/2 transition-all duration-700">
               <h2 className="text-4xl font-thin pb-6">Our Vision</h2>
               <p>
-              To become Africa's consultancy powerhouse in various professional denominations.
+              To become Africa&apos;s consultancy powerhouse in various professional denominations.
               </p>
             </div>
             <div className="hover:text-[#84be1f] border hover:border-[#84bd1f] rounded-lg p-12 w-full lg:w-1/3 lg:hover:w-1/2 transition-all duration-700">
