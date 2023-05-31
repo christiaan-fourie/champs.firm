@@ -122,7 +122,7 @@ function servicesPage() {
                         <h2 className="text-4xl font-thin pb-6">{service.title}</h2>
                         <ul>
                             {service.items.map((item, index) => (
-                                <li key={index}>{item}</li>
+                                <li key={index+10}>{item}</li>
                             ))}
                         </ul>
                     </div>
@@ -135,7 +135,7 @@ function servicesPage() {
                         <h2 className="text-4xl font-thin pb-6">{service.title}</h2>
                         <ul>
                             {service.items.map((item, index) => (
-                                <li key={index}>{item}</li>
+                                <li key={index+10}>{item}</li>
                             ))}
                         </ul>
                     </div>
