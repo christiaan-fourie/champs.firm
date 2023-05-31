@@ -1,12 +1,11 @@
 export default function About() {
   return (
     <div className='w-full min-h-[60vh] '>
-        <div className='absolute top-0 left-0 w-full h-full bg-black bg-opacity-80 -z-10'></div>
         <main className='text-xl text-center mx-24'>
-          <h1 className='text-6xl font-light pt-32'>
+          <h1 className='text-6xl font-extrabold pt-32 text-center bg-clip-text text-transparent bg-gradient-to-l from-[#84be1f] to-[#1b6ec5] from-30% to-70%'>
             Who we are.
           </h1>
-          <div className='w-1/6 h-[1px] bg-[#84be1f] my-4 mx-auto'></div>
+          <div className='w-1/6 h-[1px] bg-gradient-to-l from-[#84be1f] to-[#1b6ec5] from-30% to-70% my-4 mx-auto my-4 mx-auto'></div>
           <p className="max-w- mx-auto">
           Champs firm is a consultancy company whose aim, and dream is to serve SMMEs at all positions in the African domain.          
           </p>
