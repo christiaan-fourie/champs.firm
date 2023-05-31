@@ -65,7 +65,7 @@ export default function header() {
                     <span className="text-sm font-thin"> © Copyright 2023 Champs Firm | Dev with Psytech </span>
                     <Link target='_blank' href='https://github.com/iam-krist/champs.firm'>
                         <FaGithub size={30} className='p-1' title='Source Code'  />
-                    </Link>                    
+                    </Link>
                 </p>
             </section>
         </footer>
