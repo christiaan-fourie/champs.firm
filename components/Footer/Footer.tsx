@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const littleLine = () => {
     return (
-        <div className='w-1/6 h-[1px] bg-[#84be1f] my-4'></div>
+        <div className='w-1/2 h-[1px] bg-gradient-to-l from-[#84be1f] to-[#1b6ec5] from-30% to-70% my-4'></div>
     )
 }
 
@@ -11,7 +11,7 @@ export default function header() {
     return (
         <footer className="bottom-0 w-full border-t">
             <section className='flex flex-col md:flex-row lg:justify-evenly p-6'>
-                <div className='p-12'> 
+                <div className='p-12'>
                     <h1 className='text-start font-thin text-4xl'>Champs Firm</h1>
                     {littleLine()}
                     <p className='text-start max-w-md'>Champs firm is a consultancy company whose aim, and dream is to serve SMMEs at all positions in the African domain.</p>
@@ -55,13 +55,6 @@ export default function header() {
                         <div>
                             <h2 className='font-bold text-md'>Email</h2>
                             <p>hello@champsfirm.africa</p>
-                        </div>
-                    </div>
-                    <div className='flex items-center'>
-                        <FaPhone size={20} className='m-6 ml-0' />
-                        <div>
-                            <h2 className='font-bold text-md'>Phone</h2>
-                            <p>+27 21 879 3035</p>
                         </div>
                     </div>
                 </div>           
