@@ -114,7 +114,7 @@ function servicesPage() {
             </h1>
             <div className='w-1/6 h-[1px] bg-gradient-to-l from-[#84be1f] to-[#1b6ec5] from-30% to-70% my-4 mx-auto'></div>
             <p className="max-w- mx-auto">
-                We are here to build creative brands, and companies that meets world class client/customer satisfaction. 
+                We are here to build creative brands, and companies that meets world class client/customer satisfaction.
             </p>
             <div className='flex flex-wrap justify-center py-12 gap-4'>
                 {services.map((service, index) => (
@@ -126,7 +126,7 @@ function servicesPage() {
                             ))}
                         </ul>
                     </div>
-                ))}                               
+                ))}
             </div>
             <h2 className="text-4xl font-thin pb-6">Tutoring and Education</h2>
             <div className='flex flex-col gap-4'>
@@ -141,7 +141,6 @@ function servicesPage() {
                     </div>
                 ))}
             </div>
-            
             
             <p><strong>Consulting and Advisory</strong></p>
             <ul>
