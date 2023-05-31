@@ -116,13 +116,13 @@ function servicesPage() {
             <p className="max-w- mx-auto">
                 We are here to build creative brands, and companies that meets world class client/customer satisfaction.
             </p>
-            <div className='flex flex-wrap justify-center py-12 gap-4'>
+            {/* <div className='flex flex-wrap justify-center py-12 gap-4'>
                 {services.map((service, index) => (
                     <div key={index} className="w-1/3 hover:w-1/2 border p-12 transition-all duration-500 rounded-lg hover:border-[#84bd1f] hover:text-[#84be1f]">
                         <h2 className="text-4xl font-thin pb-6">{service.title}</h2>
                         <ul>
                             {service.items.map((item, index) => (
-                                <li key={index+10}>{item}</li>
+                                <li key={index+10} className=''>{item}</li>
                             ))}
                         </ul>
                     </div>
@@ -197,7 +197,8 @@ function servicesPage() {
             <li>Sales Presentation</li>
             <li>Social Media Advertising</li>
             <li>Business Proposal</li>
-            </ul>
+            </ul> */}
+            <h1 className='my-12'>Content Coming Soon...</h1>
 
         </main>
     </div>
