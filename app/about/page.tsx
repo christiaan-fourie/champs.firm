@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className='w-full min-h-[60vh] '>
-        <main className='text-xl text-center mx-24'>
+        <main className='text-xl text-center md:mx-24'>
           <h1 className='text-6xl font-extrabold pt-32 text-center bg-clip-text text-transparent bg-gradient-to-l from-[#84be1f] to-[#1b6ec5] from-30% to-70%'>
             Who we are.
           </h1>
@@ -25,7 +25,7 @@ export default function About() {
           </div>
           <div>
             <h2 className="text-4xl font-thin pb-6">Our Values</h2>
-            <div className="flex flex-col lg:flex-row gap-6 justify-around p-12">
+            <div className="flex flex-col w-full xl:flex-row gap-6 items-center justify-around p-12">
             {/* Our Values, Leadership, Exceptionalism, Accountability and Professionalism */}
               <div className="hover:text-[#84be1f] border hover:border-[#84bd1f] rounded-lg p-12 w-full lg:w-1/3 lg:hover:w-1/2 transition-all duration-700">                
                 <h2 className="text-4xl font-thin pb-6">Leadership</h2>
