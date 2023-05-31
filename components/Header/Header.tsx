@@ -5,7 +5,7 @@ import Link from "next/link"
 
 import {useState} from 'react'
 
-export default function header() {
+export default function Header() {
 
   const [showMenu, setShowMenu] = useState(false)
 
