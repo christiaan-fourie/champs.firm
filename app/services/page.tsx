@@ -118,12 +118,12 @@ function servicesPage() {
             </p>
             <div className='flex flex-wrap justify-center py-12 gap-4'>
                 {services.map((service, index) => (
-                    <div className="w-1/3 hover:w-1/2 border p-12 transition-all duration-500 rounded-lg hover:border-[#84bd1f] hover:text-[#84be1f]">
+                    <div key={index} className="w-1/3 hover:w-1/2 border p-12 transition-all duration-500 rounded-lg hover:border-[#84bd1f] hover:text-[#84be1f]">
                         <h2 className="text-4xl font-thin pb-6">{service.title}</h2>
                         <ul>
-                            {/* {service.items.map((item, index) => (
+                            {service.items.map((item, index) => (
                                 <li key={index+10}>{item}</li>
-                            ))} */}
+                            ))}
                         </ul>
                     </div>
                 ))}
@@ -131,12 +131,12 @@ function servicesPage() {
             <h2 className="text-4xl font-thin pb-6">Tutoring and Education</h2>
             <div className='flex flex-col gap-4'>
                 {learn.map((service, index) => (
-                    <div className="w-2/3 mx-auto border p-12 transition-all duration-500 rounded-lg hover:border-[#84bd1f] hover:text-[#84be1f]">
+                    <div key={index} className="w-2/3 mx-auto border p-12 transition-all duration-500 rounded-lg hover:border-[#84bd1f] hover:text-[#84be1f]">
                         <h2 className="text-4xl font-thin pb-6">{service.title}</h2>
                         <ul>
-                            {/* {service.items.map((item, index) => (
+                            {service.items.map((item, index) => (
                                 <li key={index+10}>{item}</li>
-                            ))} */}
+                            ))}
                         </ul>
                     </div>
                 ))}
