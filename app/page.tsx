@@ -2,7 +2,6 @@ export default function Home() {
   return (
     <>          
       <div className='w-full min-h-[60vh] transition-all'>
-        <div className='absolute text-center top-0 left-0 w-full h-full bg-black bg-opacity-80 -z-10'></div>
         <main className='md:mx-24 p-4 md:p-0'>
           <h1 className='
             text-3xl md:text-5x lg:text-6xl font-extrabold pt-6 md:pt-32 md:text-center bg-clip-text text-transparent
