@@ -30,7 +30,7 @@ function contact() {
             </div>
             <div className='flex items-center'>
                 <FaRegEnvelope size={20} className='m-6 ml-0' />
-                  <div>
+                  <div className='w-32'>
                     <h2 className='font-bold text-md'>Email</h2>
                     <p>hello@champsfirm.africa</p>
                   </div>
