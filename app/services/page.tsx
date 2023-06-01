@@ -220,7 +220,7 @@ function servicesPage() {
             </div>
             <div className='pt-12'>
                 {/* Table with registrations and compliance services */}
-                <table className='min-w-[70%] mx-auto table-auto text-center bg-[#141b08]'>
+                <table className='min-w-[70%] mx-auto table-auto text-center bg-[#141b08] border border-[#1b6ec5]'>
                     {/* <thead>
                         <tr className='table-row'>
                             <th className='table-cell'>Registration & Compliance</th>
