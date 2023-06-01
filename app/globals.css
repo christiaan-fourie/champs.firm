@@ -3,41 +3,69 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 10, 10, 10;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+th {
+  color:#1b6ec5;
+  background: #ffffff;
+  font-size:23px;
+  font-weight: 900;
+  padding:18px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+  
+tr {
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr td:hover {
+  background: #b5c9ef;
+  color:#1b6ec5;
+  transition: all 0.05s ease;
+}
+  
+tr:nth-child(odd) td {
+  background: #abaea6;
+}
+ 
+tr:nth-child(odd) td:hover {
+  background: #9fa1a6;
+}
+
+ 
+td {
+  background:#ffffff;
+  padding:16px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+}
+td:hover {
+  font-weight:800;
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --prefers-color-scheme: bg-black;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: #141b08
-}
-
-/* Utilities */
-@layer utilities {
-  .glass {
-    background: rgba(var(--background-start-rgb), 0.1);
-    backdrop-filter: blur(6px);
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: #121212
   }
-}
-
-/* A neat table that display different rows with background colors and spacing inbetween */
-/* Path: app\components\table.css */
-@layer components {
-   
   th {
     color:#1b6ec5;
-    background: #000000;
-    border-bottom:4px solid #9ea7af00;
-    border-right: 1px solid #343a45;
     font-size:23px;
     font-weight: 900;
     padding:18px;
@@ -46,10 +74,6 @@ body {
     vertical-align:middle;
   }
    
-  th:last-child {
-    border-top-right-radius:3px;
-    border-right:none;
-  }
     
   tr {
     font-size:16px;
@@ -95,7 +119,6 @@ body {
     font-weight:300;
     font-size:18px;
     text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-    border-right: 1px solid #1b6ec5;
   }
   td:hover {
     font-weight:800;
@@ -104,4 +127,21 @@ body {
   td:last-child {
     border-right: 0px;
   }
+  
 }
+
+
+/* Utilities */
+@layer utilities {
+  .glass {
+    background: rgba(var(--background-start-rgb), 0.1);
+    backdrop-filter: blur(6px);
+  }
+}
+
+/* A neat table that display different rows with background colors and spacing inbetween */
+/* Path: app\components\table.css */
+/* @layer components {
+   
+  
+} */
