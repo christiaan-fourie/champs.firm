@@ -1,6 +1,3 @@
-
-Then you can start editing the webpage by modifying `app/page.tsx`.
-
 # Champs Firm Website
 Go to site: [champsfirm.africa](https://champsfirm.vercel.app).
 
