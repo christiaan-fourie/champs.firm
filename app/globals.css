@@ -60,12 +60,16 @@ td:hover {
 
 @media (prefers-color-scheme: light) {
   /* Invert the black and white image */
-  .invert {
+  .invertonLight {
     filter: invert(1);
   }
 }
 
 @media (prefers-color-scheme: dark) {
+  /* Invert the black and white image */
+  .invertinvertonLight {
+    filter: invert(0);
+  }
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;

@@ -10,7 +10,7 @@ export default function About() {
             src="/assets/backgrounds/lionbackground.jpg"
             alt="Hero Image"
             layout="fill"
-            className="object-cover object-center invert rounded-full"
+            className="object-cover object-center invertonLight rounded-full"
           />
         </div> 
         <div className="text-right lg:w-1/2 ml-auto mt-8">
