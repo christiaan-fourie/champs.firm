@@ -9,7 +9,7 @@ const littleLine = () => {
 
 export default function header() {
     return (
-        <footer className="bottom-0 w-full border-t">
+        <footer className="bottom-0 w-full border-t glass">
             <section className='flex flex-col md:flex-row lg:justify-evenly p-6'>
                 <div className='p-12'>
                     <h1 className='text-start font-thin text-4xl'>Champs Firm</h1>
