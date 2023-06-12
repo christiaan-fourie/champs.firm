@@ -58,6 +58,12 @@ td:hover {
   font-weight:800;
 }
 
+@media (prefers-color-scheme: light) {
+  /* Invert the black and white image */
+  .invert {
+    filter: invert(1);
+  }
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
