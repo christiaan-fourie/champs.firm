@@ -1,5 +1,5 @@
 # Champs Firm Website
-Go to site: [champsfirm.africa](https://champsfirm.vercel.app).
+Go to site: [champsfirm.africa](https://champs-firm.vercel.app/).
 
 Welcome to the Champs Firm Website! This is the readme file for the Champs Firm GitHub repository. Here, you will find information about the Champs Firm consultancy company and its mission to serve Small, Medium, and Micro Enterprises (SMMEs) in the African domain.
 
