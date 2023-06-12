@@ -3,18 +3,38 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import {useState, useCallback} from 'react'
+import {useState, useCallback, useEffect} from 'react'
 
 export default function Header() {
 
   
-  const [active, setActive] = useState('home') // ['home', 'about', 'services', 'contact']
+  const [active, setActive] = useState('') // ['home', 'about', 'services', 'contact']
+
+  // On load check active page
+  const checkActive = useCallback(() => {
+    if (window.location.pathname === '/') {
+      setActive('home')
+    } else if (window.location.pathname === '/about') {
+      setActive('about')
+    } else if (window.location.pathname === '/services') {
+      setActive('services')
+    } else if (window.location.pathname === '/contact') {
+      setActive('contact')
+    }
+  }, [])
+
+  // Check active page on load
+  useEffect(() => {
+    checkActive()
+  }, [checkActive])
+
+
 
   const [showMenu, setShowMenu] = useState(false)
 
     
   return (
-    <div className="sticky top-0 glass">
+    <div className="sticky top-0 glass z-50">
 
       <header className="flex justify-between items-center w-full px-12 border-b py-4">
         <div className="flex items-center">
