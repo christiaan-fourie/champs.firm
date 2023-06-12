@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="p-12 md:p-16">        
         {/* Next Image */}
-        <div className="h-[60vh] w-full lg:w-2/3 fixed -z-30 -left-12 sm:-left-24 md:-left-28 -translate-x-64 lg:-translate-x-0">
+        <div className="h-[100vh] w-full lg:w-2/3 fixed -z-30 left-2 sm:-left-24 md:-left-28 -translate-x-64 lg:-translate-x-0">
           <Image
             src="/assets/backgrounds/lionbackground.jpg"
             alt="Hero Image"
