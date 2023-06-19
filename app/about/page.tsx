@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="p-12 md:p-16">        
         {/* Next Image */}
-        <div className="h-[100vh] w-full lg:w-2/3 fixed -z-30 left-2 sm:-left-24 md:-left-28 -translate-x-64 lg:-translate-x-0">
+        <div className="hidden md:block h-[100vh] w-full lg:w-2/3 fixed -z-30 left-2 sm:-left-24 md:-left-28 -translate-x-64 lg:-translate-x-0">
           <Image
             src="/assets/backgrounds/lionbackground.jpg"
             alt="Hero Image"
@@ -13,7 +13,7 @@ export default function About() {
             className="object-cover object-center invertonLight rounded-full"
           />
         </div> 
-        <div className="text-right lg:w-1/2 ml-auto mt-8">
+        <div className="text-center md:text-right lg:w-1/2 ml-auto mt-8">
           <div className=" text-white text-6xl lg:text-right font-extrabold text-center">
             <h1 className="bg-clip-text text-transparent bg-gradient-to-l from-[#84be1f] to-[#1b6ec5] from-30% to-70%">
               Our Vision
@@ -22,7 +22,7 @@ export default function About() {
           {/* A line */}
           
           <div className="w-1/2 h-[2px] bg-gradient-to-l from-[#84be1f] to-[#1b6ec5] from-30% to-70% my-10 py-2/1 mx-auto lg:mr-0"></div>
-          <p className="glass p-4 rounded  w-1/2 lg:w-full ml-auto lg:mr-0">
+          <p className="glass p-4 rounded w-full md:w-1/2 lg:w-full ml-auto lg:mr-0">
           To become Africa&apos;s consultancy powerhouse in various
             professional denominations.
           We envision a future where African SMMEs are at the forefront of economic growth and innovation. By supporting and nurturing these businesses, we aim to contribute to the overall development and prosperity of the African continent.
@@ -43,7 +43,7 @@ export default function About() {
           </div>
           {/* A line */}          
           <div className="w-1/2 h-[2px] bg-gradient-to-l from-[#84be1f] to-[#1b6ec5] from-30% to-70% my-10 py-2/1 mx-auto lg:mr-0"></div>
-          <p className="glass p-4 rounded w-1/2 lg:w-full ml-auto lg:mr-0">
+          <p className="glass p-4 rounded w-full md:w-1/2 lg:w-full ml-auto lg:mr-0">
             Our mission is to provide comprehensive solutions and tailored support to SMMEs, enabling them to overcome challenges and unlock their full potential. We believe that by offering our expertise, guidance, and resources, we can make a significant impact on the growth and success of SMMEs throughout Africa.
           </p>
         </div>
