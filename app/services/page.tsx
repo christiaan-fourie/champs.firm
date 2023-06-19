@@ -121,100 +121,68 @@ function servicesPage() {
             <p className="max-w- mx-auto">
                 We are here to build creative brands, and companies that meets world class client/customer satisfaction.
             </p>
-            {/* <div className='flex flex-wrap justify-center py-12 gap-4'>
-                {services.map((service, index) => (
-                    <div key={index} className="w-1/3 hover:w-1/2 border p-12 transition-all duration-500 rounded-lg hover:border-[#84bd1f] hover:text-[#84be1f]">
-                        <h2 className="text-4xl font-thin pb-6">{service.title}</h2>
-                        <ul>
-                            {service.items.map((item, index) => (
-                                <li key={index+10} className=''>{item}</li>
-                            ))}
-                        </ul>
-                    </div>
-                ))}
-            </div>
-            <h2 className="text-4xl font-thin pb-6">Tutoring and Education</h2>
-            <div className='flex flex-col gap-4'>
-                {learn.map((service, index) => (
-                    <div key={index} className="w-2/3 mx-auto border p-12 transition-all duration-500 rounded-lg hover:border-[#84bd1f] hover:text-[#84be1f]">
-                        <h2 className="text-4xl font-thin pb-6">{service.title}</h2>
-                        <ul>
-                            {service.items.map((item, index) => (
-                                <li key={index+10}>{item}</li>
-                            ))}
-                        </ul>
-                    </div>
-                ))}
-            </div>
-            
+            {/*             
             <p><strong>Consulting and Advisory</strong></p>
             <ul>
-            <li>Corporate Governance Consulting</li>
-            <li>Business Plan Development</li>
-            <li>Sales and Marketing</li>
-            <li>Business Model Design</li>
-            <li>Business Expansion Plan</li>
-            <li>Value Proposition and Strategy</li>
-            <li>Productivity Improvement Plan</li>
-            <li>Business Turnaround Plan</li>
-            <li>Marketing Plan and Strategy</li>
+                <li>Corporate Governance Consulting</li>
+                <li>Business Plan Development</li>
+                <li>Sales and Marketing</li>
+                <li>Business Model Design</li>
+                <li>Business Expansion Plan</li>
+                <li>Value Proposition and Strategy</li>
+                <li>Productivity Improvement Plan</li>
+                <li>Business Turnaround Plan</li>
+                <li>Marketing Plan and Strategy</li>
             </ul>
             <p><strong>Events and Exhibitions</strong></p>
             <ul>
-            <li>Consultation Meetings</li>
-            <li>Networking Session Events</li>
-            <li>Shopping Malls/Center/Complex Exhibitions</li>
-            <li>Board Meeting Organizing and Hosting</li>
-            <li>Presentations and Conferencing</li>
-            <li>Webinars, Seminars and Workshops</li>
-            <li>Team Building Sessions</li>
+                <li>Consultation Meetings</li>
+                <li>Networking Session Events</li>
+                <li>Shopping Malls/Center/Complex Exhibitions</li>
+                <li>Board Meeting Organizing and Hosting</li>
+                <li>Presentations and Conferencing</li>
+                <li>Webinars, Seminars and Workshops</li>
+                <li>Team Building Sessions</li>
             </ul>
             <p><strong>Coaching and Mentoring</strong></p>
             <ul>
-            <li>Executive Coaching and Mentoring</li>
-            <li>Performance Coaching and Mentoring</li>
-            <li>Financial Coaching and Mentoring</li>
-            <li>Management Coaching and Mentoring</li>
-            <li>Personal Skills Coaching and Mentoring</li>
-            <li>Leadership Coaching and Mentoring</li>
-            <li>Business Coaching and Mentoring</li>
-            <li>Startup Coaching and Mentoring</li>
-            <li>Skills Coaching and Mentoring</li>
-            <li>Supervisory Coaching and Mentoring</li>
+                <li>Executive Coaching and Mentoring</li>
+                <li>Performance Coaching and Mentoring</li>
+                <li>Financial Coaching and Mentoring</li>
+                <li>Management Coaching and Mentoring</li>
+                <li>Personal Skills Coaching and Mentoring</li>
+                <li>Leadership Coaching and Mentoring</li>
+                <li>Business Coaching and Mentoring</li>
+                <li>Startup Coaching and Mentoring</li>
+                <li>Skills Coaching and Mentoring</li>
+                <li>Supervisory Coaching and Mentoring</li>
             </ul>
             <p><strong>Human Resources and Legal</strong></p>
             <ul>
-            <li>Staff Administration</li>
-            <li>Talent and Performance Management</li>
-            <li>Training and Empowerment</li>
-            <li>Employment Equity</li>
-            <li>Skills and Leadership Development</li>
-            <li>Recruitment Policies</li>
-            <li>HR Compliance</li>
+                <li>Staff Administration</li>
+                <li>Talent and Performance Management</li>
+                <li>Training and Empowerment</li>
+                <li>Employment Equity</li>
+                <li>Skills and Leadership Development</li>
+                <li>Recruitment Policies</li>
+                <li>HR Compliance</li>
             </ul>
             <p><strong>Sales and Marketing</strong></p>
             <ul>
-            <li>Marketing Plan</li>
-            <li>Marketing Strategy</li>
-            <li>Business Growth Plan</li>
-            <li>Business Proposal</li>
-            <li>Tender Bid Documents</li>
-            <li>Sales Presentation</li>
-            <li>Social Media Advertising</li>
-            <li>Business Proposal</li>
+                <li>Marketing Plan</li>
+                <li>Marketing Strategy</li>
+                <li>Business Growth Plan</li>
+                <li>Business Proposal</li>
+                <li>Tender Bid Documents</li>
+                <li>Sales Presentation</li>
+                <li>Social Media Advertising</li>
+                <li>Business Proposal</li>
             </ul> */}
-
-            
-
         </main>
-        
 
         <Registration />
-
         <Accounting />
-
         <Branding />
-
 
     </div>
   )
