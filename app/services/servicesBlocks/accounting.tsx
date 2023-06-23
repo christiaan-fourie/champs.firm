@@ -12,7 +12,7 @@ export default function Accounting() {
                     <div className='flex flex-col justify-start'>
                         <FaBalanceScale size={'30%'} className='md:hidden p-4' />
                         <h1 className='text-xl text-left lg:text-4xl'>Accounting and Tax</h1>
-                    </div>                    
+                    </div>
                     <div className='w-1/6 h-[1px] bg-gradient-to-l from-[#84be1f] to-[#1b6ec5] from-30% to-70% my-4'></div>
                     <p>Our firm offers comprehensive accounting solutions, including precise financial record-keeping, analysis, and interpretation, along with expert tax planning and compliance services to ensure your financial matters are handled efficiently and in compliance with relevant regulations.</p>
                 </div>
